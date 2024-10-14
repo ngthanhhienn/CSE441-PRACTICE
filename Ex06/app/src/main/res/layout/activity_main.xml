@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập tên -->
+    <EditText
+        android:id="@+id/edtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên"
+        android:inputType="textPersonName" />
+
+    <!-- Nhập CMND -->
+    <EditText
+        android:id="@+id/edtcmnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập CMND"
+        android:inputType="number" />
+
+    <!-- Bằng cấp -->
+    <RadioGroup
+        android:id="@+id/idgruop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rad_daihoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đại học" />
+
+        <RadioButton
+            android:id="@+id/rad_caodang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cao đẳng" />
+
+        <RadioButton
+            android:id="@+id/rad_trungcap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trung cấp" />
+    </RadioGroup>
+
+    <!-- Sở thích -->
+    <CheckBox
+        android:id="@+id/chkdocbao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc báo" />
+
+    <CheckBox
+        android:id="@+id/chkdocsach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc sách" />
+
+    <CheckBox
+        android:id="@+id/chkcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đọc code" />
+
+    <!-- Thông tin bổ sung -->
+    <EditText
+        android:id="@+id/edtbosung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thông tin bổ sung" />
+
+    <!-- Nút gửi thông tin -->
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi thông tin" />
+
+</LinearLayout>
