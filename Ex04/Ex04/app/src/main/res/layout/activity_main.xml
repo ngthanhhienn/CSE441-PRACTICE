@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên của bạn"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtchieucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chiều cao (m)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtcannang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cân nặng (kg)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính BMI" />
+
+    <EditText
+        android:id="@+id/edtBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chỉ số BMI"
+        android:inputType="none"
+        android:focusable="false" />
+
+    <EditText
+        android:id="@+id/edtChuanDoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chuẩn đoán"
+        android:inputType="none"
+        android:focusable="false" />
+</LinearLayout>
